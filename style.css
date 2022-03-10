@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+    src: url(/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+body {
+    font-family: 'Montserrat' sans-serif;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+/* стиль хедор */
+
+.header-top {
+    border: 1px solid #dedede;
+}
+.header-top-info {
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-menu {
+    width: 945px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-menu-list {
+    display: flex;
+    font-size: 14px;
+    font-weight: 500px;
+    justify-content: space-between;
+}
+.top-menu-list a {
+    color: #424242;
+}
+.top-menu-list-left {
+    width: 352px;
+}
+.top-menu-list-left a {
+    text-decoration: none;
+}
+.top-menu-list-right {
+    width: 340px;
+}
+.list-blue { 
+    color: #3A95FF;
+    font-weight: 600;
+}
+.list-blue1 a {
+    text-decoration: none;
+}
+
+/* стиль хедор низ */
+
+.main-menu-list {
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+.main-menu-list a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #424242;
+
+}
+/* стили кнопок */
+
+.btn {
+    width: 200px;
+    height: 55px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 3px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.btn-primary {
+    background-color: #3A95FF;
+    color: #fff;
+}
+.btn-secondary {
+    border: 1px solid #3A95FF;
+    color: #3A95FF;
+}
+
+/* стили бвннера */
+
+.main-banner {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.main-banner-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-offer-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 110%;
+    color: #212121;
+    margin-bottom: 63px;
+
+}
+.banner-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* стили предложений */
+
+.zagolovok {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+
+    color: #000000;
+}
+.podzagolovok {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+    margin-bottom: 70px;
+
+}
+
+.main-programm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.programm {
+    width: 555px;
+    height: 300px;
+    align-items: center;
+    background: #EFF2F5;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    margin-bottom: 62px;
+    
+}
+.programm-text {
+   
+}
+.programm-img {
+    
+}
